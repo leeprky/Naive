@@ -1,8 +1,8 @@
 {
-    "name": "ToBeTheme",
-    "description": "NewTheme",
+    "name": "Nieve",
+    "description": "NieveTheme",
     "version": "0.1",
     "author": "Leeprky#2063",
     "license": "MIT",
-    "theme": "tobenamedtheme.css"
+    "theme": "nieve.css"
 }
