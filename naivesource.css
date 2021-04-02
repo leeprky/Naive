@@ -1,4 +1,4 @@
-/* Index CSS v0.1 */
+/* Index CSS v0.2 */
 
 /* Imports */
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
@@ -7,31 +7,29 @@
 /* SourceCode */
 
 .theme-dark {
-    --header-primary: #d64685;
+    --header-primary: #eb1873;
     --header-secondary: #d1d6dd;
     --text-normal: #dcddde;
     --text-muted: #72767d;
-    --text-link: #e65091;
-    --channels-default: #8e9297;
+    --text-link: #eb1873;
+    --channels-default: #a0a8b1;
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
-    --interactive-muted: #4f545c;
+    --interactive-muted: #444950;
     --background-primary: #273043;
-    --background-secondary: #273043;
-    --background-secondary-alt: #273043;
+    --background-secondary: #252c3b;
+    --background-secondary-alt: #252c3b;
     --background-tertiary: #273043;
     --background-accent: #b92b69;
     --background-floating: #18191c;
     --background-chatbox: #49334ecc;
-    --background-mobile-primary: #36393f;
-    --background-mobile-secondary: #2f3136;
+    --background-mentioned: #a838691e;;
+    --background-mentioned-hover: #a838692d;;
     --background-modifier-hover: rgba(79,84,92,0.16);
     --background-modifier-active: rgba(79,84,92,0.24);
     --background-modifier-selected: rgba(79,84,92,0.32);
     --background-modifier-accent: hsla(0,0%,100%,0.06);
-    --background-mentioned: rgba(250,166,26,0.05);
-    --background-mentioned-hover: rgba(250,166,26,0.08);
     --background-message-hover: rgba(4,4,5,0.07);
     --background-help-warning: rgba(250,166,26,0.1);
     --background-help-info: rgba(0,176,244,0.1);
@@ -46,10 +44,10 @@
     --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
     --logo-primary: #fff;
-    --focus-primary: #00b0f4;
-    --radio-group-dot-foreground: #8ea1e1;
+    --focus-primary: #b92b69;
+    --radio-group-dot-foreground: #b92b6846;
     --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-    --channeltextarea-background: #2053aa;
+    --channeltextarea-background: #b92b683b;
     --activity-card-background: #202225;
     --textbox-markdown-syntax: #8e9297;
     --deprecated-card-bg: rgba(32,34,37,0.6);
@@ -64,65 +62,124 @@
     --deprecated-text-input-prefix: #dcddde;
 }
 
-.theme-light {
-    --header-primary: #060607;
-    --header-secondary: #4f5660;
-    --text-normal: #2e3338;
-    --text-muted: #747f8d;
-    --text-link: #0067e0;
-    --channels-default: #6a7480;
-    --interactive-normal: #4f5660;
-    --interactive-hover: #2e3338;
-    --interactive-active: #060607;
-    --interactive-muted: #c7ccd1;
-    --background-primary: #fff;
-    --background-secondary: #f2f3f5;
-    --background-secondary-alt: #ebedef;
-    --background-tertiary: #e3e5e8;
-    --background-accent: #747f8d;
-    --background-floating: #fff;
-    --background-mobile-primary: #f8f9f9;
-    --background-mobile-secondary: #fff;
-    --background-modifier-hover: rgba(116,127,141,0.08);
-    --background-modifier-active: rgba(116,127,141,0.16);
-    --background-modifier-selected: rgba(116,127,141,0.24);
-    --background-modifier-accent: rgba(6,6,7,0.08);
-    --background-mentioned: rgba(250,166,26,0.1);
-    --background-mentioned-hover: rgba(250,166,26,0.2);
-    --background-message-hover: rgba(6,6,7,0.02);
-    --background-help-warning: rgba(250,166,26,0.1);
-    --background-help-info: rgba(0,103,224,0.1);
-    --scrollbar-thin-thumb: rgba(79,84,92,0.3);
-    --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #ccc;
-    --scrollbar-auto-track: #f2f2f2;
-    --scrollbar-auto-scrollbar-color-thumb: #e3e5e8;
-    --scrollbar-auto-scrollbar-color-track: #f2f3f5;
-    --elevation-stroke: 0 0 0 1px rgba(6,6,7,0.08);
-    --elevation-low: 0 1px 0 rgba(6,6,7,0.1),0 1.5px 0 rgba(6,6,7,0.025),0 2px 0 rgba(6,6,7,0.025);
-    --elevation-medium: 0 4px 4px rgba(0,0,0,0.08);
-    --elevation-high: 0 8px 16px rgba(0,0,0,0.16);
-    --logo-primary: #7289da;
-    --focus-primary: #00b0f4;
-    --radio-group-dot-foreground: #4e5d94;
-    --guild-header-text-shadow: 0 1px 1px hsla(0,0%,100%,0.4);
-    --channeltextarea-background: #ebedef;
-    --activity-card-background: #fff;
-    --textbox-markdown-syntax: #6a7480;
-    --deprecated-card-bg: #f8f9f9;
-    --deprecated-card-editable-bg: rgba(246,246,247,0.6);
-    --deprecated-store-bg: #f8f9f9;
-    --deprecated-quickswitcher-input-background: #fff;
-    --deprecated-quickswitcher-input-placeholder: rgba(79,84,92,0.3);
-    --deprecated-text-input-bg: rgba(79,84,92,0.02);
-    --deprecated-text-input-border: rgba(79,84,92,0.3);
-    --deprecated-text-input-border-hover: #b9bbbe;
-    --deprecated-text-input-border-disabled: #dcddde;
-    --deprecated-text-input-prefix: #b9bbbe;
+/* UpdateIcon */
+.updateIconForeground-3tnNZn {
+    fill: var(--background-accent)
 }
 
+/* MentionedColour */
+.mentioned-xhSam7:before {
+    background-color: var(--background-accent);
+}
+.mentioned-xhSam7 {
+    background-color: var(--background-mentioned);
+}
+
+/* PeopleArea */
+.peopleColumn-29fq28 {
+    background-color: var(--background-primary);
+}
+  .nowPlayingColumn-2sl4cE {
+   background-color: var(--background-primary);
+}
+/* ServerList */
+.platform-win .scroller-1Bvpku {
+    background-color: var(--background-secondary);
+}
+/* --- */
+
+/* WindowsInTopBar */
+.typeWindows-1za-n7{
+    width:calc(100% - calc(72px + 240px));
+    position: fixed;
+    right: 0px;
+    height:46px;
+    z-index: 2;
+    background:var(--secondary-background-alt)!important;margin:0px;
+  }
+  .platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
+    z-index:1000000;
+  }
+  .winButton-iRh8-Z{top:12px;left:-4px;z-index:67438274832798;}
+  .wordmarkWindows-1v0lYD{display: none;}
+  .platform-win .sidebar-2K8pFh {border-radius: 0px!important;}
+  .platform-win .title-3qD0b-{
+    width:calc(100% - 80px);
+  }
+  .typeWindows-1za-n7 {!important;margin:1px;}
+
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e;}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f;}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879;}
+
+/* --- */
 
 /* Variables Ended */
 .scrollableContainer-2NUZem {
     background-color: var(--background-chatbox);
 }
+
+/*Minifiedmemberlist*/
+:root {
+    --hover-animation-speed: 0.35s;
+    --seperator-color: var(--background-accent);
+ }
+ 
+ .membersWrap-2h-GB4 {
+    min-width: unset;
+    width: 50px;
+    justify-content: right;
+ }
+ 
+ .members-1998pB {
+    transition: transform var(--hover-animation-speed);
+ }
+ 
+ .membersWrap-2h-GB4:hover .members-1998pB {
+    transform: translateX(-190px);
+ }
+ 
+ .membersWrap-2h-GB4 .membersGroup-v9BXpm::after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    border-radius: 50px;
+    background: unset;
+    background-color: var(--seperator-color);
+    position: absolute;
+    left: -36px;
+    top: 29px;
+    margin-left: 0px;
+ }
+ 
+ .membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
+    background-color: unset;
+    margin-left: 0px;
+    transition: margin-left var(--hover-animation-speed);
+ }
+ 
+ .membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
+    margin-left: 8px;
+ }
+ 
+ .membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+    transform: translateX(-6px);
+ }
+ 
+ .membersWrap-2h-GB4 .membersGroup-v9BXpm {
+    cursor: default;
+    transform: translateX(45px);
+    transition: transform var(--hover-animation-speed);
+    overflow: visible;
+ }
+
+ /* Separate the channels list from the chat box. - 755166410824482937 */
+.sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
+    border-radius: 18px 18px 0 0 !important
+  }
+  
+  .chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+    position: relative;
+    left: 10px;
+    padding-right: 5px
+  }
