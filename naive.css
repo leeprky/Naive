@@ -14,15 +14,6 @@
 
 /* Naive v0.3.1*/
 
-body{
-    background-color: transparent;
-}
-#app-mount{
-	background-color: rgba(235, 28, 28, 0);
-	border-radius: 12px 12px 12px 12px; 
-	border-color: transparent;
-}
-
 /* colour variables */
 /* NAIVE DEFAULT */
 @import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive.css);
@@ -41,6 +32,17 @@ body{
 
 /* NAIVE PEAR */
 /* 
+/* */
+
+/* Borders */
+body{
+    background-color: transparent;
+}
+#app-mount{
+	background-color: rgba(235, 28, 28, 0);
+	border-radius: 12px 12px 12px 12px; 
+	border-color: transparent;
+}
 
 /* --- */
 
