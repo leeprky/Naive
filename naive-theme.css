@@ -18,7 +18,7 @@
 @import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive.css);
 
 /* NAIVE APPLE */
-/* @import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-apple.css);
+@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-apple.css);
 /* NAIVE WAVE */
 /* 
 /* NAIVE JET */
@@ -38,6 +38,3 @@ body{
 	border-radius: 12px 12px 12px 12px; 
 	border-color: transparent;
 }
-/* --- */
-/* COLOR PRESENTS THAT FIX DISCORD GARBO STYLES */
-
