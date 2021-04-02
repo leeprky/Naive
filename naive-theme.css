@@ -1,39 +1,107 @@
-/**
- * @name Naive
- * @author Leeprky#2063
- * @version 0.3
- * @description Naive Theme By Leeprky#2063
- * @source https://github.com/leeprky/tobenamedtheme
-*/
-/* ^ betterdiscord ^ */
+/* Source CSS v0.3.1 */
+/* Imports */
+@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+@import url(https://nyri4.github.io/Discolored/main.css);
 
-/* THEME IMPORTS */
-/* source code */
-@import url('https://raw.githack.com/leeprky/NaiveTheme/main/naivesource.css');
-/*
-/* Naive v0.3.1*/
+/* SourceCode */
 
-/* colour variables */
-/* NAIVE DEFAULT */
-@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive.css);
+/* WindowsInTopBar */
+.typeWindows-1za-n7{
+    width:calc(100% - calc(72px + 240px));
+    position: fixed;
+    right: 0px;
+    height:46px;
+    z-index: 2;
+    background:var(--background-primary)!important;margin:0px;
+  }
+  .platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
+    z-index:1000000;
+  }
+  .winButton-iRh8-Z{top:12px;left:-4px;z-index:67438274832798;}
+  .wordmarkWindows-1v0lYD{display: none;}
+  .platform-win .sidebar-2K8pFh {border-radius: 0px!important;}
+  .platform-win .title-3qD0b-{
+    width:calc(100% - 80px);
+  }
+  .typeWindows-1za-n7 {!important;margin:1px;}
 
-/* NAIVE APPLE */
-/* @import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-apple.css);
-/* NAIVE WAVE */
-/* 
-/* NAIVE JET */
-/* 
-/* NAIVE SKY */
-/* 
-/* NAIVE PEAR */
-/* 
-/* Base */
-/* Borders */
-body{
-    background-color: transparent;
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e;}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f;}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879;}
+
+/* --- */
+
+/* Variables Ended */
+.scrollableContainer-2NUZem {
+    background-color: var(--background-chatbox);
 }
-#app-mount{
-	background-color: rgba(207, 178, 190, 0.801);
-	border-radius: 12px 12px 12px 12px; 
-	border-color: transparent;
+
+/*Minifiedmemberlist*/
+:root {
+    --hover-animation-speed: 0.35s;
+    --seperator-color: var(--background-accent);
+ }
+ 
+ .membersWrap-2h-GB4 {
+    min-width: unset;
+    width: 50px;
+    justify-content: right;
+ }
+ 
+ .members-1998pB {
+    transition: transform var(---hover-animation-speed);
+ }
+ 
+ .membersWrap-2h-GB4:hover .members-1998pB {
+    transform: translateX(-190px);
+ }
+ 
+ .membersWrap-2h-GB4 .membersGroup-v9BXpm::after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    border-radius: 50px;
+    background: unset;
+    background-color: var(--seperator-color);
+    position: absolute;
+    left: -36px;
+    top: 29px;
+    margin-left: 0px;
+ }
+ 
+ .membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
+    background-color: unset;
+    margin-left: 0px;
+    transition: margin-left var(--hover-animation-speed);
+ }
+ 
+ .membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
+    margin-left: 8px;
+ }
+ 
+ .membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+    transform: translateX(-6px);
+ }
+ 
+ .membersWrap-2h-GB4 .membersGroup-v9BXpm {
+    cursor: default;
+    transform: translateX(45px);
+    transition: transform var(--hover-animation-speed);
+    overflow: visible;
+ }
+/* MemberListColors*/
+ .members-1998pB {
+    background-color: var(--background-primary);
 }
+.members-1998pB>div {
+    background-color: var(--background-primary);
+}
+
+/* Toolbar Member List Icon */
+.toolbar-1t6TWx [aria-label="Member List"] {
+	display: none;
+  }
+.toolbar-1t6TWx [aria-label="Help"] {
+	display: none;
+}
+/* --- */
