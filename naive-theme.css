@@ -7,6 +7,8 @@
 */
 /* ^ betterdiscord ^ */
 
+@import url(https://raw.githack.com/leeprky/NaiveTheme/main/naivesource.css);
+
 .theme-dark {
     --naivedd-header-primary: #eb1873;
     --naivedd-header-secondary: #d1d6dd;
