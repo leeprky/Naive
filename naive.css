@@ -11,7 +11,6 @@
 /* source code */
 @import url('https://raw.githack.com/leeprky/NaiveTheme/main/naivesource.css');
 /*
-
 /* Naive v0.3.1*/
 
 /* colour variables */
@@ -20,64 +19,25 @@
 
 /* NAIVE APPLE */
 /* @import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-apple.css);
-
 /* NAIVE WAVE */
 /* 
-
 /* NAIVE JET */
 /* 
-
 /* NAIVE SKY */
 /* 
-
 /* NAIVE PEAR */
 /* 
-/* */
 
+/* Base */
 /* Borders */
 body{
     background-color: transparent;
 }
 #app-mount{
-	background-color: rgba(235, 28, 28, 0);
+	background-color: rgba(207, 178, 190, 0.801);
 	border-radius: 12px 12px 12px 12px; 
 	border-color: transparent;
 }
-
 /* --- */
-
 /* COLOR PRESENTS THAT FIX DISCORD GARBO STYLES */
-/* UpdateIcon */
-.updateIconForeground-3tnNZn {
-    fill: var(--background-accent)
-}
-/* MentionedColour */
-.mentioned-xhSam7:before {
-    background-color: var(--background-accent);
-}
-.mentioned-xhSam7 {
-    background-color: var(--background-mentioned);
-}
-/* PeopleArea */
-.peopleColumn-29fq28 {
-    background-color: var(--background-primary);
-}
-  .nowPlayingColumn-2sl4cE {
-   background-color: var(--background-primary);
-}
-/* ServerList */
-.platform-win .scroller-1Bvpku {
-    background-color: var(--background-secondary);
-}
-.platform-win .scroller-1Bvpku {
-	top: 10px;
-}
-.childWrapper-anI2G9 {
-    background-color: var(--background-accent);
-    color: var(--text-normal);
-}
-.circleIconButton-1QV--U {
-    color: #f8fdfb;
-    background-color: var(--background-accent);
-}
-/* --- */
+
