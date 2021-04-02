@@ -1,10 +1,10 @@
-/* NAIVE DEFAULT */
+/* NAIVE APPLE */
 .theme-dark {
-    --header-primary: #eb1873;
+    --header-primary: #63A375;
     --header-secondary: #d1d6dd;
     --text-normal: #dcddde;
     --text-muted: #72767d;
-    --text-link: #eb1873;
+    --text-link: #63A375;
     --channels-default: #a0a8b1;
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
@@ -14,11 +14,11 @@
     --background-secondary: #252c3b;
     --background-secondary-alt: #252c3b;
     --background-tertiary: #273043;
-    --background-accent: #b92b69;
-    --background-floating: #18191c;
-    --background-chatbox: #49334ecc;
-    --background-mentioned: #a838691e;
-    --background-mentioned-hover: #a838692d;
+    --background-accent: #63A375;
+    --background-floating: #63a37556;
+    --background-chatbox: #63a3754b;
+    --background-mentioned: #63a37525;
+    --background-mentioned-hover: #63a3751c;
     --background-modifier-hover: rgba(79,84,92,0.16);
     --background-modifier-active: rgba(79,84,92,0.24);
     --background-modifier-selected: rgba(79,84,92,0.32);
@@ -26,10 +26,10 @@
     --background-message-hover: rgba(4,4,5,0.07);
     --background-help-warning: rgba(250,166,26,0.1);
     --background-help-info: rgba(0,176,244,0.1);
-    --scrollbar-thin-thumb: #6b3659b7;
+    --scrollbar-thin-thumb: #63a3753f;
     --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #6b3659b7;
-    --scrollbar-auto-track: #64234ead;
+    --scrollbar-auto-thumb: #63a3753b;
+    --scrollbar-auto-track: #63a3752a;
     --scrollbar-auto-scrollbar-color-thumb: #202225;
     --scrollbar-auto-scrollbar-color-track: #2f3136;
     --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
@@ -37,7 +37,7 @@
     --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
     --logo-primary: #fff;
-    --focus-primary: #b92b69;
+    --focus-primary: #63A375;
     --radio-group-dot-foreground: #b92b6846;
     --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
     --channeltextarea-background: #b92b683b;
