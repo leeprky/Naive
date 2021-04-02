@@ -1,8 +1,8 @@
 {
     "name": "Naive",
     "description": "NaiveTheme",
-    "version": "0.3.1",
+    "version": "0.3.0",
     "author": "Leeprky#2063",
     "license": "MIT",
-    "theme": "naive.css"
+    "theme": "naive-theme.css"
 }
