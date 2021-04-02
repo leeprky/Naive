@@ -55,11 +55,11 @@
     --deprecated-text-input-prefix: #dcddde;
 }
 .theme-dark {
-    --toast-background: #fff;
-    --toast-header: #e3e5e8;
-    --toast-contents: #f2f3f5;
-    --toast-box-shadow: rgba(0, 0, 0, .1);
-    --toast-border: rgba(28, 36, 43, .06);
+    --toast-background: #273043;
+    --toast-header: #7c234ae0;
+    --toast-contents: #eceff5;
+    --toast-box-shadow: rgba(204, 72, 101, 0.178);
+    --toast-border: rgba(49, 46, 47, 0.123);
 }
 
 /* NAIVE DEFUALT LIGHT */
