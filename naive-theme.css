@@ -7,4 +7,33 @@
 */
 /* ^ betterdiscord ^ */
 
-@import url(https://raw.githack.com/leeprky/NaiveTheme/main/naivesource.css);
+/* THEME IMPORTS */
+/* source code */
+@import url('https://raw.githack.com/leeprky/NaiveTheme/main/naivesource.css');
+/*
+/* Naive v0.3.1*/
+
+/* colour variables */
+/* NAIVE DEFAULT */
+@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive.css);
+
+/* NAIVE APPLE */
+@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-apple.css);
+/* NAIVE WAVE */
+/* 
+/* NAIVE JET */
+/* 
+/* NAIVE SKY */
+/* 
+/* NAIVE PEAR */
+/* 
+/* Base */
+/* Borders */
+body{
+    background-color: transparent;
+}
+#app-mount{
+	background-color: rgba(207, 178, 190, 0.801);
+	border-radius: 12px 12px 12px 12px; 
+	border-color: transparent;
+}
