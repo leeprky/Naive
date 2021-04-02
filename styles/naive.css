@@ -1,3 +1,4 @@
+
 /* NAIVE DEFAULT DARK */
 .theme-dark {
     --naivedd-header-primary: #eb1873;
@@ -60,6 +61,15 @@
     --naivedd-toast-contents: #eceff5;
     --naivedd-toast-box-shadow: rgba(204, 72, 101, 0.178);
     --naivedd-toast-border: rgba(49, 46, 47, 0.123);
+}
+
+/* IMPLEMENTS NAIVE INTO DISCORD COLORS */
+/* ChatAreaForNaive Variables */
+.scrollerInner-2YIMLh, .form-2fGMdU, .members-1998pB, .total-members.counts, .container-1r6BKw.themed-ANHk51 {
+    background-color: var(--naivedd-background-primary);
+}
+.scroller-RmtA4e, .container-3baos1, .container-3baos1, .clickable-25tGDB .header-2V-4Sw {
+    background-color: var(--naivedd-background-secondary);    
 }
 
 /* UpdateIcon */
