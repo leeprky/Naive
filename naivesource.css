@@ -12,7 +12,7 @@
     right: 0px;
     height:46px;
     z-index: 2;
-    background:var(--naivedd-background-primary)!important;margin:0px;
+    background:var(--background-primary)!important;margin:0px;
   }
   .platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
     z-index:1000000;
@@ -33,7 +33,15 @@
 
 /* Variables Ended */
 .scrollableContainer-2NUZem {
-    background-color: var(--naivedd-background-chatbox);
+    background-color: var(--background-chatbox);
+}
+
+/* MemberListColors*/
+ .members-1998pB {
+    background-color: var(--background-primary);
+}
+.members-1998pB>div {
+    background-color: var(--background-primary);
 }
 
 /* Toolbar Member List Icon */
