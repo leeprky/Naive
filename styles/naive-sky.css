@@ -1,0 +1,46 @@
+/* NAIVE - SKY / CYAN */
+.theme-dark { 
+	--alt-color: 41, 173, 174;
+    --header-primary: #28AFB0;
+    --header-secondary: #8E949C;
+    --text-normal: #F4F7F5;
+    --text-muted: rgb(73, 78, 87);
+    --text-link: #28AFB0;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #ebe9ea;
+    --interactive-muted: rgb(73, 78, 87);
+    --background-primary: #232935;
+    --background-secondary: #2A303C;
+    --background-secondary-alt: #2A303C;
+    --background-tertiary: #1a1f27;
+    --background-accent: #28AFB0;
+    --background-floating: #232934;
+    --background-modifier-hover: #28b0b048;
+    --background-modifier-active: #28b0b05e;
+    --background-modifier-selected: #28b0b063;
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --background-mentioned: #28b0b062;
+    --background-mentioned-hover: #28b0b09d;
+    --background-message-hover: #28b0b02d;
+    --background-help-warning: #28b0b052;
+    --background-help-info: #28b0b041;
+    --scrollbar-thin-thumb: #28b0b041;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #28b0b041;
+    --scrollbar-auto-track: #28b0b01f;
+    --scrollbar-auto-scrollbar-color-thumb: #28b0b041;
+    --scrollbar-auto-scrollbar-color-track: #28b0b02c;
+    --elevation-stroke: 0 0 0 1px rgba(26, 22, 22, 0.329);
+    --elevation-low: 0 1px 0 rgba(26, 22, 22, 0.329);
+    --elevation-medium: 0 4px 4px rgba(26, 22, 22, 0.329);
+    --elevation-high: 0 8px 16px rgba(26, 22, 22, 0.329);
+    --logo-primary: #fff;
+    --focus-primary: #28AFB0;
+    --radio-group-dot-foreground: #28AFB0;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: #37dada3f;
+	--toast-header: #20242b;
+    --spotify-color: #28AFB0;
+}

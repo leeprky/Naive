@@ -1,0 +1,46 @@
+/* NAIVE -APPLE / GREEM */
+.theme-dark { 
+    --alt-color: 38, 163, 73;
+    --header-primary: #26a54a;
+    --header-secondary: #8E949C;
+    --text-normal: #F4F7F5;
+    --text-muted: rgb(73, 78, 87);
+    --text-link: #26a54a;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #ebe9ea;
+    --interactive-muted: rgb(73, 78, 87);
+    --background-primary: #232935;
+    --background-secondary: #2A303C;
+    --background-secondary-alt: #2A303C;
+    --background-tertiary: #1a1f27;
+    --background-accent: #26a54a;
+    --background-floating: #232934;
+    --background-modifier-hover: #26a54a4f;
+    --background-modifier-active: #26a54a81;
+    --background-modifier-selected: #26a54a77;
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --background-mentioned: #26a54a48;
+    --background-mentioned-hover: #26a54a77;
+    --background-message-hover: #ffb30f10;
+    --background-help-warning: #ffcb5c28;
+    --background-help-info: #ffcb5c28;
+    --scrollbar-thin-thumb: #26a54a28;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #26a54a38;
+    --scrollbar-auto-track: #26a54a3b;
+    --scrollbar-auto-scrollbar-color-thumb: #9c203f9a;
+    --scrollbar-auto-scrollbar-color-track: #94143477;
+    --elevation-stroke: 0 0 0 1px rgba(26, 22, 22, 0.329);
+    --elevation-low: 0 1px 0 rgba(26, 22, 22, 0.329);
+    --elevation-medium: 0 4px 4px rgba(26, 22, 22, 0.329);
+    --elevation-high: 0 8px 16px rgba(26, 22, 22, 0.329);
+    --logo-primary: #fff;
+    --focus-primary: #26a54a;
+    --radio-group-dot-foreground: #26a54a;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: #26a54a28;
+    --toast-header: #20242b;
+    --spotify-color: #26a54a;
+}
