@@ -27,6 +27,13 @@
 .titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e;}
 .titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f;}
 .titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879;}
+
+/* Rounded Borders For Windows */
+#app-mount {
+	background-color: rgba(0, 0, 0, 0.301);
+	border-radius: 18px 18px 18px 18px; 
+	border-color: transparent;
+}
 /* --- */
 
 /* Toolbar Member List Icon */
