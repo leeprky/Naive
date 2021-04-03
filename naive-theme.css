@@ -1,54 +1,8 @@
-/* Source CSS v0.3.1 */
-/* Imports */
-@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
-@import url(https://nyri4.github.io/Discolored/main.css);
-
-/* SourceCode */
-
-/* WindowsInTopBar */
-.typeWindows-1za-n7{
-    width:calc(100% - calc(72px + 240px));
-    position: fixed;
-    right: 0px;
-    height:46px;
-    z-index: 2;
-    background:var(--background-primary)!important;margin:0px;
-  }
-  .platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
-    z-index:1000000;
-  }
-  .winButton-iRh8-Z{top:12px;left:-4px;z-index:67438274832798;}
-  .wordmarkWindows-1v0lYD{display: none;}
-  .platform-win .sidebar-2K8pFh {border-radius: 0px!important;}
-  .platform-win .title-3qD0b-{
-    width:calc(100% - 80px);
-  }
-  .typeWindows-1za-n7 {!important;margin:1px;}
-
-.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e;}
-.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f;}
-.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879;}
-
-/* --- */
-
-/* Variables Ended */
-.scrollableContainer-2NUZem {
-    background-color: var(--background-chatbox);
-}
-
-/* MemberListColors*/
- .members-1998pB {
-    background-color: var(--background-primary);
-}
-.members-1998pB>div {
-    background-color: var(--background-primary);
-}
-
-/* Toolbar Member List Icon */
-.toolbar-1t6TWx [aria-label="Member List"] {
-	display: none;
-  }
-.toolbar-1t6TWx [aria-label="Help"] {
-	display: none;
-}
-/* --- */
+/**
+ * @name Naive
+ * @author Leeprky#2063
+ * @version 0.3
+ * @description Naive Theme By Leeprky#2063
+ * @source https://github.com/leeprky/tobenamedtheme
+*/
+/* ^ betterdiscord ^ */
