@@ -19,10 +19,11 @@ body{
     --interactive-hover: #dcddde;
     --interactive-active: #ebe9ea;
     --interactive-muted: rgb(73, 78, 87);
-    --background-primary: #232935d7;
-    --background-secondary: #2a303cb0;
-    --background-secondary-alt: #2a303cb0;
-    --background-tertiary: #1a1f277a;
+    --background-primary: #232935e1;
+    --background-secondary: rgba(42, 48, 60, 0.521);
+    --background-secondary2:rgba(42, 48, 60, 0.74);
+    --background-secondary-alt: rgba(42, 48, 60, 0.521);
+    --background-tertiary: #1a1f272c;
     --background-accent: #e5197188;
     --background-floating: #232934;
     --background-modifier-hover: #e2277815;
