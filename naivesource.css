@@ -148,7 +148,10 @@ button[class*="lookFilled"].colorBrand-3pXr91:hover {
 div[class*="barFill-"] {
     background-color: rgba(var(--alt-color)) !important;
 }
-
+/* Navbar */
+.colorDefault-22HBa0 {
+    background-color: var(--alt-color); margin-top: 3px; height: 40px; position: sticky; border-radius: 0px; 
+}
 /* Reactions */
 .reaction-1hd86g.reactionMe-wv5HKu {
     background-color: rgba(var(--alt-color), 0.3);
