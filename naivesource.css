@@ -11,7 +11,7 @@
     right: 0px;
     height:46px;
     z-index: 2;
-    background:var(--background-primary)!important;margin:0px;
+    background: transparent!important;margin:0px;
   }
   .platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
     z-index:1000000;
@@ -27,6 +27,10 @@
 .titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e;}
 .titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f;}
 .titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879;}
+.container-1r6BKw.themed-ANHk51 {
+    background: transparent;
+}
+/* --- */
 
 /* Rounded Borders For Windows */
 body{
@@ -43,10 +47,12 @@ body{
 .toolbar-1t6TWx [aria-label="Member List"], .toolbar-1t6TWx [aria-label="Help"] {
 	display: none;
 }
+/* --- */
 /* ServerList */
 .listItem-GuPuDH {
     margin-top: 12px;
 }
+/* --- */
 
 /* PowercordToasts */
 .powercord-toast {border-radius: 18px; background-color: transparent;}
@@ -59,14 +65,21 @@ body{
 .lookOutlined-3sRXeN.colorGrey-2DXtkV {color: #F4F7F5; border-color: #b6bec9; background-color: #747f8d93; }
 .lookOutlined-3sRXeN.colorGrey-2DXtkV:hover {color: #F4F7F5; border-color: #cbd3df; background-color: #99a6b893; }
 .powercord-toast .header { font-size: 15px; }
-
 /* --- */
 
-
-
-
-
-
+/* topbar */
+.withFrame-haYltI {
+    height: 18px;
+    margin-top: 0px;
+    border-left: 10px;
+    box-shadow: none;
+}
+/* --- */
+/* emoji area in chatbox */
+.webkit-HjD9Er .buttons-3JBrkn {
+    margin-right: 6px;
+}
+/* --- */
 
 
 
