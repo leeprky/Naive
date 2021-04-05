@@ -1,7 +1,7 @@
 /**
  * @name Naive
  * @author Leeprky#2063
- * @version 0.3
+ * @version 0.3.1
  * @description Naive Theme By Leeprky#2063
  * @source https://github.com/leeprky/tobenamedtheme
 */
@@ -16,8 +16,8 @@
 
 
 /* Colors */
-/* Cherry - Magenta */  
-@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-cherry.css); */ /*
+/* Cherry - Magenta */  /*
+@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-cherry.css); */
 @import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-cherry-glasscord.css);
 /*
 
@@ -48,23 +48,6 @@
 /* memberlist */
 .members-1998pB, .members-1998pB>div {
     background-color: transparent;
-}
-/* Serverlist */
-.scroller-1Bvpku {
-    background-color: var(--background-secondary); /* Add two on the end for glasscord - var(--background--alt2); */
-}
-.scroller-1d5FgU {
-    background-color: var(--background-primary);
-}
-::-webkit-scrollbar {
-    display: none;
-}
-/* spotify color */
-.powercord-spotify .spotify-buttons button {
-    color: var(--spotify-color) !important;
-}
-.container-3baos1, .container-3baos1 .avatar-SmRMf2 {
-    background-color: var(--background-secondary-alt); /* Add two on the end for glasscord - var(--background-secondary-alt2); */
 }
 /* chatbox text here color */
 .placeholder-37qJjk, .slateTextArea-1Mkdgw {
