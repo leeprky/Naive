@@ -1,7 +1,7 @@
 {
     "name": "Naive",
     "description": "A Discord theme with easy config and sleek user UI and design. With support for multiple clients & glasscord.",
-    "version": "0.3",
+    "version": "0.3.1",
     "author": "Leeprky#2063",
     "license": "MIT",
     "theme": "naive-theme.css"
