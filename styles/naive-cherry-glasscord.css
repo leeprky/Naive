@@ -54,6 +54,49 @@ body{
     --spotify-color: #E51971;
 }
 
+/* Light theme away */
+html.theme-dark .theme-light {
+    --header-primary: #E51971;
+    --header-secondary: #8E949C;
+    --text-normal: #F4F7F5;
+    --text-muted: rgb(73, 78, 87);
+    --text-link: #E51971;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #ebe9ea;
+    --interactive-muted: rgb(73, 78, 87);
+    --background-primary: #232935e1;
+    --background-secondary: rgba(42, 48, 60, 0.521);
+    --background-secondary2:rgba(42, 48, 60, 0.74);
+    --background-secondary-alt: rgba(42, 48, 60, 0.521);
+    --background-tertiary: #1a1f272c;
+    --background-accent: #e5197188;
+    --background-floating: #232934;
+    --background-modifier-hover: #e2277815;
+    --background-modifier-active: #e227783d;
+    --background-modifier-selected: #e2277815;
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --scrollbar-thin-thumb: rgba(204, 29, 64, 0.185);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #a0193b3b;
+    --scrollbar-auto-track: #e5197118;
+    --scrollbar-auto-scrollbar-color-thumb: #9c203f9a;
+    --scrollbar-auto-scrollbar-color-track: #94143477;
+    --focus-primary: #e51971d5;
+  }
+  html.theme-dark .theme-light .root-1gCeng {
+    background-color: #2329359c;
+    -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+  }
+  html.theme-dark .theme-light .footer-2gL1pp {
+    background-color: #23293518;
+    -webkit-box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+    box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+    color: var(--text-normal);
+  }
+
 /* Serverlist */
 .scroller-1Bvpku {
     background-color: var(--background-secondary2); /* Add two on the end for glasscord - var(--background--alt2); */
@@ -70,8 +113,4 @@ body{
 }
 .container-3baos1, .container-3baos1 .avatar-SmRMf2 {
     background-color: var(--background-secondary-alt2); /* Add two on the end for glasscord - var(--background-secondary-alt2); */
-}
-/* TopBar */
-.container-1r6BKw.themed-ANHk51 {
-    background: var(--background-primary)
 }
