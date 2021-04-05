@@ -5,10 +5,12 @@ A Discord theme with easy config and sleek user UI and design. With support for 
 
 Naive Offers Multiple Colors
 
-Cherry: 
+Cherry:
+Cherry Light: 
 Buzzy:
 Sky:
 Apple:
+Hell: 
 
 - Any Issues DM Leeprky#2063
   Hope You Enjoy!
