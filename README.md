@@ -29,4 +29,4 @@ MIT, see LICENSE.md for more details
 
 ## Previews
 
-![preview](./previews/naive1.png)
+![preview](./previews/naive1.png.jpg.png)
