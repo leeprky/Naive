@@ -44,3 +44,25 @@
 	--toast-header: #20242b;
     --spotify-color: #E51971;
 }
+
+/* Serverlist */
+.scroller-1Bvpku {
+    background-color: var(--background-secondary); /* Add two on the end for glasscord - var(--background--alt2); */
+}
+.scroller-1d5FgU {
+    background-color: var(--background-primary);
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/* spotify color */
+.powercord-spotify .spotify-buttons button {
+    color: var(--spotify-color) !important;
+}
+.container-3baos1, .container-3baos1 .avatar-SmRMf2 {
+    background-color: var(--background-secondary-alt); /* Add two on the end for glasscord - var(--background-secondary-alt2); */
+}
+/* TopBar */
+.container-1r6BKw.themed-ANHk51 {
+    background: var(--background-primary)
+}
