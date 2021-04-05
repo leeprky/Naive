@@ -23,7 +23,7 @@
 */
 
 /* /* Cherry - Magenta (GLASSCORD) */
-/*
+
 @import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-cherry-glasscord.css);
 /*
 
@@ -67,11 +67,19 @@
     background-color: var(--background-primary);
 }
 .section-2gLsgF {
-    background-color: var(--background-secondary);
+    background-color: var(--background-primary);
 }
 .scroller-1JbKMe {
     background-color: transparent;
 }
+.peopleColumn-29fq28 {
+    background-color: var(--background-primary);
+}
+/* Embed Wrapper */
+.embedWrapper-lXpS3L, .embedFull-2tM8--, .embed-IeVjo6, .markup-2BOw-j {
+    border-color: var(--background-accent)
+}
+
 
 /* Voicecall */
 .wrapper-2qzCYF.minimum-28Z35l {
@@ -100,3 +108,63 @@
     -webkit-box-shadow: inset 0 0 0 2px var(--background-accent),inset 0 0 0 3px var(--background-floating);
     box-shadow: inset 0 0 0 2px var(--background-accent),inset 0 0 0 3px var(--background-floating);
 }
+/* TopBar */
+.container-1r6BKw.themed-ANHk51 {
+    background: var(--background-primary)
+}
+
+
+
+
+
+/* CSS Snippits */
+
+/* Bigger avatar modal */
+.headerTop-3C2Zn0 {
+    min-height: 250px;
+    padding: 0;
+}
+.headerTop-3C2Zn0 .avatarWrapper-3H_478 {
+    left: 0;
+    bottom: 0;
+    width: 250px;
+}
+.headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA {
+    height: 260px !important;
+    width: 250px !important;
+    left: -4px;
+}
+.avatarHint-1qgaV3 {width: 100%;height: 100%;border-radius: 0;}
+.avatarHintInner-Dco91E {
+    font-size: 0.4em;
+    text-shadow: 1px 1px 3px rgb(221, 221, 221);
+}
+.headerTop-3C2Zn0 foreignObject {mask: none !important;}
+.headerTop-3C2Zn0 rect {
+    border-radius: 0;
+    x: 0; y: 79;
+    width: 80px;
+    height: 3px;
+    mask: none;
+}
+.headerText-2sdzFM {padding-bottom: 5px;}
+
+/* Show Discord, even when you're offline */
+.container-16j22k {
+    background: transparent;
+    pointer-events: none;
+  }
+  .container-16j22k * {
+    display: none;
+  }
+  .container-16j22k::before {
+    content: 'You\'ve gone offline';
+    display: block;
+    bottom: 24px;
+    right: 24px;
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #f04747;
+    border-radius: 4px;
+    color: #fff;
+  }
