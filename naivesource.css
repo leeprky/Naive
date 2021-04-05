@@ -1,4 +1,4 @@
-/* Source CSS v0.3 */
+/* Source CSS v0.2.1 */
 /* Imports */
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 @import url(https://nyri4.github.io/Discolored/main.css);
@@ -188,6 +188,80 @@ body{
     width: 408px;
     height: 10px;
     padding: 60px 6px 60px 20px;
+}
+/* --- */
+
+/* Color Addons */
+/* memberlist */
+.members-1998pB, .members-1998pB>div {
+    background-color: transparent;
+}
+/* --- */
+/* chatbox text here color */
+.placeholder-37qJjk, .slateTextArea-1Mkdgw {
+    color: var(--text-normal)
+}
+/* --- */
+/* friends area */
+.peopleList-3c4jOR {
+    background-color: var(--background-primary);
+}
+.nowPlayingColumn-2sl4cE {
+    background-color: var(--background-primary);
+}
+.section-2gLsgF {
+    background-color: var(--background-primary);
+}
+.scroller-1JbKMe {
+    background-color: transparent;
+}
+.peopleColumn-29fq28 {
+    background-color: var(--background-primary);
+}
+.container-1D34oG {
+    margin-left: 4px;
+}
+/* --- */
+/* Embed Wrapper */
+.embedWrapper-lXpS3L, .embedFull-2tM8--, .embed-IeVjo6, .markup-2BOw-j {
+    border-color: var(--background-accent)
+}
+/* --- */
+/* Voicecall */
+.wrapper-2qzCYF.minimum-28Z35l {
+    height: 250px;
+    background-color: var(--background-primary);
+    opacity: 0.8;
+}
+/* --- */
+/* call dock/call mute*/
+.wrapper-3EGhDO {
+    background-color: var(--background-secondary);
+    border-radius: 25px;
+    padding: 0px;
+}
+.colorable-1bkp8v.white-3GPOIp, .colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T { color: currentColor; } .colorable-1bkp8v.primary-3NQg8g, .colorable-1bkp8v.primary-3NQg8g.active-1QRrIS, .colorable-1bkp8v.primary-3NQg8g:hover,  .colorable-1bkp8v.white-3GPOIp, .centerButton-3CaNcJ, .colorable-1bkp8v.white-3GPOIp.active-1QRrIS, .colorable-1bkp8v.white-3GPOIp:hover, .colorable-1bkp8v.red-33-Lnk {
+    background: none !important;
+}
+.status-1WEaea {
+    width: 40px;
+    height: 40px;
+    background-color: var(--background-accent);
+    left: 17px;
+    top: 18px
+}
+/* --- */
+.border-Jn5IOt.speaking-B2MXPi {
+    -webkit-box-shadow: inset 0 0 0 2px var(--background-accent),inset 0 0 0 3px var(--background-floating);
+    box-shadow: inset 0 0 0 2px var(--background-accent),inset 0 0 0 3px var(--background-floating);
+}
+/* TopBar */
+.container-1r6BKw.themed-ANHk51 {
+    background: var(--background-primary)
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 /* --- */
 
