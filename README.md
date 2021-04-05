@@ -1,8 +1,14 @@
 ## Naive
-Discord Theme
+A Discord theme with easy config and sleek user UI and design. With support for multiple clients & glasscord.
 
 ## INFO
 
+Naive Offers Multiple Colors
+
+Cherry: 
+Buzzy:
+Sky:
+Apple:
 
 - Any Issues DM Leeprky#2063
   Hope You Enjoy!
