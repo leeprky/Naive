@@ -1,7 +1,7 @@
 /**
  * @name Naive
  * @author Leeprky#2063
- * @version 0.3.1
+ * @version 0.3.2
  * @description Naive Theme By Leeprky#2063
  * @source https://github.com/leeprky/tobenamedtheme
 */
@@ -16,26 +16,40 @@
 
 
 /* Colors */
+
 /* Cherry - Magenta */  
 
-/*
-@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-cherry.css);  
+
+@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-cherry.css); 
+/* */
+/* - REMOVE
+@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-cherry-glasscord.css);
 */
 
-/* /* Cherry - Magenta (GLASSCORD) */
-
-@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-cherry-glasscord.css);
+/* Buzzy - Yellow */ 
+/* - REMOVE
+@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-buzzy.css); 
+/* */
+/*
+@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-buzzy-glasscord.css); 
 /*
 
-/* Buzzy - Yellow */ /*
-@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-buzzy.css); 
+/* Sky - Cyan */ 
+/* - REMOVE
+@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-sky.css);  
+/* */
+/* - REMOVE
+@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-sky-glasscord.css); 
+/*
 
+/* Apple - Green */ 
 
-/* Sky - Cyan */ /*
-@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-sky.css); 
-
-/* Apple - Green */ /*
+/* - REMOVE
 @import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-apple.css);
+/* */
+/* - REMOVE
+@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-apple-glasscord.css);
+/*
 
 /* */ 
 
