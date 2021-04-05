@@ -1,4 +1,4 @@
-/* Source CSS v0.2.1 */
+/* Source CSS v0.3.1 */
 /* Imports */
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 @import url(https://nyri4.github.io/Discolored/main.css);
@@ -35,10 +35,10 @@
 
 /* Modal Popout */
 .activity-11LB_k, .headerTop-3C2Zn0 {
-    background-color: var(--background-floating);
+    background-color: var(--background-secondary);
 }
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
-    background-color: var(--background-floating);
+    background-color: var(--background-secondary);
 }
 .userPopout-3XzG_A {
     box-shadow: none;
