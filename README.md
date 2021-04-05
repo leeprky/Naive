@@ -21,7 +21,7 @@ Hell:
 
 > Right Click "themes" and click Git Bash Here
 
-> Type "git clone https://github.com/leeprky/NaiveTheme"
+> Type "git clone https://github.com/leeprky/Naive"
 
 > Refresh Discord
 
