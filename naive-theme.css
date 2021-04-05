@@ -77,6 +77,26 @@
 }
 /* --- */
 
+/* Optionals */
+/* Separate the channels list from the chat box. Option*/
+/* REMOVE >>>> */
+.sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv, .clickable-25tGDB {
+    border-radius: 15px 15px 15px 15px !important;
+    border-color: transparent;
+    left: 5px
+  }
+.platform-win .sidebar-2K8pFh {
+    border-radius: 0px 12px 12px 0px!important;
+}
+.content-98HsJk {
+    background-color: rgba(17, 16, 16, 0);
+    box-shadow: none;
+}
+/* */
+/* ----- */
+
+
+
 /* Color Addons - Dont change */
 /* memberlist */
 .members-1998pB, .members-1998pB>div {
