@@ -65,6 +65,7 @@ body{
 .lookOutlined-3sRXeN.colorGrey-2DXtkV {color: #F4F7F5; border-color: #b6bec9; background-color: #747f8d93; }
 .lookOutlined-3sRXeN.colorGrey-2DXtkV:hover {color: #F4F7F5; border-color: #cbd3df; background-color: #99a6b893; }
 .powercord-toast .header { font-size: 15px; }
+.powercord-toast .contents .inner {background-color: transparent;border: none;}
 /* --- */
 
 /* topbar */
