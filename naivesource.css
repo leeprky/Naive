@@ -1,4 +1,4 @@
-/* Source CSS v0.2.1 */
+/* Source CSS v0.3.1 */
 /* Imports */
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 @import url(https://nyri4.github.io/Discolored/main.css);
@@ -57,7 +57,7 @@ div[class*="headerPlaying"], div[class*="headerStreaming"] {
 .userInfoSection-2acyCx { margin-top: -21px; }
 .body-3ND3kc { height: calc(100% - 167px); }
 
-.bodyTitle-Y0qMQz, .marginBottom8-AtZOdT, .size12-3R0845, .note-3HfJZ5, .footer-1fjuF6 {
+.bodyTitle-Y0qMQz, .size12-3R0845, .note-3HfJZ5, .footer-1fjuF6 {
     display: none;
 }
 .headerTop-3C2Zn0 {
