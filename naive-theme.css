@@ -19,8 +19,11 @@
 
 /* Cherry - Magenta */  
 
-
+/*
 @import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-cherry.css); 
+/* */
+/*
+@import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-cherry-light.css); 
 /* */
 /* - REMOVE
 @import url(https://raw.githack.com/leeprky/NaiveTheme/main/styles/naive-cherry-glasscord.css);
@@ -137,7 +140,9 @@
     background: var(--background-primary)
 }
 
-
+::-webkit-scrollbar {
+    display: none;
+}
 
 
 
