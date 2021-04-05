@@ -112,16 +112,6 @@ body{
     height: 10px;
     padding: 60px 6px 60px 20px;
 }
-/* friends area toolbar adjustment */
-.inviteToolbar-3F-l2g [aria-label="New Group DM"] {
-   left: -55px;
-}
-.toolbar-1t6TWx [aria-label="Inbox"] {
-    left: -80px;
-}
-.children-19S4PO:after {
-    display: none;
-}
 
 
 
