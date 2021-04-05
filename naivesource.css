@@ -1,4 +1,4 @@
-/* Source CSS v0.2.1 */
+/* Source CSS v0.2.2 */
 /* Imports */
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 @import url(https://nyri4.github.io/Discolored/main.css);
@@ -53,6 +53,10 @@ body{
     margin-top: 12px;
 }
 /* --- */
+
+.updateIconForeground-3tnNZn {
+    fill: var(--background-accent)
+}
 
 /* PowercordToasts */
 .powercord-toast {border-radius: 18px; background-color: transparent;}
