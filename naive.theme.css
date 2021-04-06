@@ -1,7 +1,7 @@
 /**
  * @name Naive
  * @author Leeprky#2063
- * @version 0.3.4
+ * @version 0.3.5
  * @description Naive Theme By Leeprky#2063
  * @source https://github.com/leeprky/tobenamedtheme
 */
@@ -25,7 +25,7 @@
 /* - REMOVE (LIGHTMODE)
 @import url(https://raw.githack.com/leeprky/Naive/main/styles/naive-cherry-light.css); 
 /* */
-/* - REMOVE (GLASSCORD)
+/* - REMOVE (LIGHTMODE)
 @import url(https://raw.githack.com/leeprky/Naive/main/styles/naive-cherry-glasscord.css);
 /* */
 
@@ -64,7 +64,7 @@
 
 /* COLORS PERSONAL - not recommended unless you know what ur doing*/
 /* @import url('CUSTOM GITHACK COLOR SCHEME LINK HERE') */
-/* DELETE FOR MANUAL COLORS (GLASSCORD)
+/* DELETE FOR MANUAL COLORS (GLASSCORD) 
 body{
   background-color: transparent;
 }
@@ -75,42 +75,33 @@ border-radius: var(--glasscord-blur-corner-radius);
 }
 
 .theme-dark { 
-  --alt-color: 228, 25, 112; 
-  --spotify-color: #E51971;
-  --header-primary: #E51971;
-  --header-secondary: #8E949C;
-  --text-normal: #F4F7F5;
-  --text-muted: rgb(73, 78, 87);
-  --text-link: #E51971;
-  --channels-default: #8e9297;
-  --interactive-normal: #b9bbbe;
-  --interactive-hover: #dcddde;
-  --interactive-active: #ebe9ea;
-  --interactive-muted: rgb(73, 78, 87);
-  --background-primary: #232935e1;
-  --background-secondary: rgba(42, 48, 60, 0.521);
-  --background-secondary2:rgba(42, 48, 60, 0.74);
-  --background-secondary-alt: rgba(42, 48, 60, 0.521);
-  --background-tertiary: #1a1f272c;
-  --background-accent: #e5197188;
-  --background-floating: #232934;
-  --background-modifier-hover: #e2277815;
-  --background-modifier-active: #e227783d;
-  --background-modifier-selected: #e2277815;
-  --background-modifier-accent: hsla(0,0%,100%,0.06);
-  --background-mentioned: rgba(250, 26, 101, 0.05);
-  --background-mentioned-hover: rgba(250, 26, 101, 0.08);
-  --background-message-hover: rgba(224, 22, 89, 0.07);
-  --background-help-warning: rgba(250, 26, 112, 0.1);
-  --background-help-info: rgba(244, 0, 94, 0.1);
-  --focus-primary: #e51971d5;
-  --radio-group-dot-foreground: #e93784b7;
-  --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-  --channeltextarea-background: #e519710c;
-  --toast-header: #20242b;
-}
+  --alt-color: 114, 137, 218;
+  --spotify-color: #27cc11;
+  --toast-header: #202225de;
+    --background-primary: #23232857;
+    --background-primary-alt: #36393ff0;
+    --background-secondary: #2f313650;
+    --background-secondary-chat: #2f3136a0;
+    --background-secondary-alt: #2f313650;
+    --background-tertiary: #20222500;
+    --background-logo: #36393fa0;
+    --deprecated-card-bg: #36393f4c;
+    --deprecated-store-bg: #36393f00;
+    --background-attachments: #2f313640;
+    --background-search-bar: #202225a0;
+    --background-switcher: #2f3136ff;
+    --background-chatbox: #20222550;
+    --background-lights-out: #000;
+    --background-pinned: #2f3136ff;
+    --background-profile-expand: #2f3136ff;
+    --background-emoji: #2f3136ff;
+    --text-lights-out: #f0f0f0;
+    --background-titlebar: #2f313650;
+    --scrollbar-auto-thumb: #20222550;
+  };
 .scroller-1Bvpku {
   background-color: var(--background-secondary2); 
+}
 .scroller-1d5FgU {
   background-color: var(--background-primary);
 }
