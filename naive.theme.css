@@ -1,7 +1,7 @@
 /**
  * @name Naive
  * @author Leeprky#2063
- * @version 0.3.3
+ * @version 0.3.4
  * @description Naive Theme By Leeprky#2063
  * @source https://github.com/leeprky/tobenamedtheme
 */
@@ -227,11 +227,13 @@ div[class*="headerPlaying"], div[class*="headerStreaming"] {
 }
 .headerText-2sdzFM {padding-bottom: 5px;}
 /* --- */
-/* Blur Sensitive Info - add /* On line below */
 
+/* Blur Sensitive Info */
+/* Title */
 .children-rWhLdy  .fieldTitle-3h2iLW {
   margin-left: 4px;
 }
+/* My Account */
 .children-rWhLdy .fieldList-21DyL8 .size16-1P40sf {
   transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
   filter: blur(3px);
@@ -244,6 +246,7 @@ div[class*="headerPlaying"], div[class*="headerStreaming"] {
   opacity: 1;
   margin-left: 4px;
 }
+/* Payment Methods */
 .paymentSourceRow-3FbcL_ .subText-V8PTt8 {
   transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
   filter: blur(3px);
@@ -254,6 +257,7 @@ div[class*="headerPlaying"], div[class*="headerStreaming"] {
   filter: none;
   opacity: 1;
 }
+/* Transaction History */
 .theme-dark .verticalFit-waKLYN .summaryInfo-2QFKUg,
 .theme-light .verticalFit-waKLYN .summaryInfo-2QFKUg {
   transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
@@ -266,16 +270,19 @@ div[class*="headerPlaying"], div[class*="headerStreaming"] {
   filter: none;
   opacity: 1;
 }
+/* Subscriptions */
 .detailsBlock-FoDTGA .paymentSourceLabel-1lo4Ca {
   transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
   filter: blur(3px);
 }
+
 .detailsBlock-FoDTGA .paymentSourceLabel-1lo4Ca:hover {
   transition: all 40ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
   filter: none;
   opacity: 1;
 }
-
+/* Leeprkys Extras */
+/* Connected Accounts */
 .connectionAccountValue-3VdBGs{
   transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
 filter: blur(8px);
@@ -286,6 +293,9 @@ transition: all 40ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
 filter: none;
 opacity: 1;
 }
+/* SMS Backup Authentication */
+
+/* Authorised Apps Blur */
 .authedApp-mj2Hmd {
   transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
   filter: blur(8px);
@@ -295,7 +305,8 @@ opacity: 1;
     transition: all 40ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
     filter: none;
     opacity: 1;
-  }  
+    }  
+/* Connections Blur */
 .gameName-1RiWHm {
   transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
   filter: blur(8px);
@@ -306,7 +317,7 @@ opacity: 1;
   filter: none;
   opacity: 1;
   }
- /* --- */
+  /* --- */
 /* ----- */
 
 /* Naive Extras */
@@ -321,29 +332,3 @@ opacity: 1;
 /* --- */
 
 
-
-
-
-/* Show Discord, even when you're offline */
-.container-16j22k {
-    background: transparent;
-    pointer-events: none;
-  }
-  .container-16j22k * {
-    display: none;
-  }
-  .container-16j22k::before {
-    content: 'You\'ve gone offline';
-    display: block;
-    bottom: 24px;
-    right: 24px;
-    position: absolute;
-    padding: 8px 16px;
-    background-color: var(--background-accent);
-    border-radius: 4px;
-    color: #fff;
-  }
-  .scroller-1d5FgU {
-    background-color: transparent;
-}
-/* --- */
