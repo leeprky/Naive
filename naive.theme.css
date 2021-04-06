@@ -62,7 +62,7 @@
 @import url(https://raw.githack.com/leeprky/Naive/main/styles/naive-hell-glasscord.css);
 /*
 
-/* COLORS PERSONAL */
+/* COLORS PERSONAL - not recommended unless you know what ur doing*/
 /* DELETE FOR MANUAL COLORS (GLASSCORD)
 body{
   background-color: transparent;
@@ -143,7 +143,7 @@ border-radius: var(--glasscord-blur-corner-radius);
 
 /* Optionals */
 /* Separate the channels list from the chat box. Option*/
-/* REMOVE >>>> */
+/* REMOVE LINE */
 .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv, .clickable-25tGDB {
     border-radius: 15px 15px 15px 15px !important;
     border-color: transparent;
@@ -159,7 +159,7 @@ border-radius: var(--glasscord-blur-corner-radius);
 /* */
 
 /* Modal Popout - Add /* BELOW FOR NONE BIG MODALS */
-/*
+
 .activity-11LB_k, .headerTop-3C2Zn0 {
   background-color: var(--background-secondary);
 }
@@ -236,14 +236,12 @@ div[class*="headerPlaying"], div[class*="headerStreaming"] {
 .members-1998pB, .members-1998pB>div {
     background-color: transparent;
 }
+/* --- */
 
 
 
 
 
-
-
-/* CSS Snippits */
 /* Show Discord, even when you're offline */
 .container-16j22k {
     background: transparent;
@@ -259,11 +257,11 @@ div[class*="headerPlaying"], div[class*="headerStreaming"] {
     right: 24px;
     position: absolute;
     padding: 8px 16px;
-    background-color: #f04747;
+    background-color: var(--background-accent);
     border-radius: 4px;
     color: #fff;
   }
-
   .scroller-1d5FgU {
     background-color: transparent;
 }
+/* --- */
