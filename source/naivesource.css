@@ -220,7 +220,11 @@ body{
     display: none;
   }
 
-  
+/* Spotify Invite Friends Thing */
+.attachButtonPlay-3iJ0mf {
+    color: var(--spotify-color)
+}
+
 /* Show Discord, even when you're offline */
 .container-16j22k {
     background: transparent;
