@@ -1,0 +1,104 @@
+/* NAIVE - CHERRY / MAGENTA */
+.theme-dark { 
+    --alt-color: 73, 78, 87;
+    --header-primary: #645d60d5;
+    --header-secondary: #8E949C;
+    --text-normal: #F4F7F5;
+    --text-muted: rgb(73, 78, 87);
+    --text-link: #645d60d5;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #ebe9ea;
+    --interactive-muted: rgb(73, 78, 87);
+    --background-primary: #070505;
+    --background-secondary: #070505;
+    --background-secondary-alt: #070505;
+    --background-tertiary: #070505;
+    --background-accent: #645d60d5;
+    --background-floating: #27292c;
+    --background-modifier-hover: #645d606e;
+    --background-modifier-active: #645d604b;
+    --background-modifier-selected: #645d602d;
+    --background-modifier-accent: #645d60d5;
+    --background-mentioned: rgba(63, 60, 61, 0.226);
+    --background-mentioned-hover: rgba(233, 215, 221, 0.08);
+    --background-message-hover: #1b191a1c;
+    --background-help-warning: #645d60d5;
+    --background-help-info: #645d60d5;
+    --scrollbar-thin-thumb: #645d60d5;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #645d60d5;
+    --scrollbar-auto-track: #645d60d5;
+    --scrollbar-auto-scrollbar-color-thumb: #645d60d5;
+    --scrollbar-auto-scrollbar-color-track: #645d60d5;
+    --elevation-stroke: 0 0 0 1px rgba(26, 22, 22, 0.329);
+    --elevation-low: 0 1px 0 rgba(26, 22, 22, 0.329);
+    --elevation-medium: 0 4px 4px rgba(26, 22, 22, 0.329);
+    --elevation-high: 0 8px 16px rgba(26, 22, 22, 0.329);
+    --logo-primary: #fff;
+    --focus-primary: #645d60d5;
+    --radio-group-dot-foreground: #645d60d5;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: rgba(19, 17, 18, 0.164);
+    --toast-header: #20242b;
+    --spotify-color: #645d60d5;
+  }
+
+/* Light theme away */
+html.theme-dark .theme-light {
+    --header-primary: #645d60d5;
+    --header-secondary: #8E949C;
+    --text-normal: #F4F7F5;
+    --text-muted: rgb(73, 78, 87);
+    --text-link: #645d60d5;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #ebe9ea;
+    --interactive-muted: rgb(73, 78, 87);
+    --background-primary: #070505;
+    --background-secondary: #070505;
+    --background-secondary-alt: #070505;
+    --background-tertiary: #070505;
+    --background-accent: #645d60d5;
+    --background-floating: #27292c;
+    --background-modifier-hover: #645d606e;
+    --background-modifier-active: #645d604b;
+    --background-modifier-selected: #645d602d;
+    --background-modifier-accent: #645d60d5;
+    --scrollbar-thin-thumb: #645d60d5;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #645d60d5;
+    --scrollbar-auto-track: #645d60d5;
+    --focus-primary: #645d60d5;
+  }
+  html.theme-dark .theme-light .root-1gCeng {
+    background-color: #2329359c;
+    -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+  }
+  html.theme-dark .theme-light .footer-2gL1pp {
+    background-color: #23293518;
+    -webkit-box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+    box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+    color: var(--text-normal);
+  }
+
+/* Serverlist */
+.scroller-1Bvpku {
+    background-color: var(--background-secondary); /* Add two on the end for glasscord - var(--background--alt2); */
+}
+.scroller-1d5FgU {
+    background-color: var(--background-primary);
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/* spotify color */
+.powercord-spotify .spotify-buttons button {
+    color: var(--spotify-color) !important;
+}
+.container-3baos1, .container-3baos1 .avatar-SmRMf2 {
+    background-color: var(--background-secondary-alt); /* Add two on the end for glasscord - var(--background-secondary-alt2); */
+}
