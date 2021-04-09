@@ -160,23 +160,27 @@ ul.tree-2wKJdG:focus {
 
 /* Modal Popout - Add /* BELOW FOR NONE BIG MODALS */
 
+:root {
+  --background-secondary3: #262C37;
+}
 .activity-11LB_k, .headerTop-3C2Zn0 {
-  background-color: var(--background-secondary);
+  background-color: var(--background-secondary3);
 }
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
-  background-color: var(--background-secondary);
+  background-color: var(--background-secondary3)
 }
 .userPopout-3XzG_A {
   box-shadow: none;
 }
 div[class*="headerPlaying"], div[class*="headerStreaming"] {
-  background-color: transparent !important;
+  background-color: var(--alt-color) !important;
 }
 .popout_1188 {
   border-radius: 12px;
 }
 .rolesList-22qj2L {
-  margin-top: 0px;
+  margin-top: 2px;
+  margin-bottom: 1px;
 }
 
 .note-QfFU8y textarea { display: none; }
@@ -184,7 +188,7 @@ div[class*="headerPlaying"], div[class*="headerStreaming"] {
 .userInfoSection-2acyCx { margin-top: -21px; }
 .body-3ND3kc { height: calc(100% - 167px); }
 
-.bodyTitle-Y0qMQz, .size12-3R0845, .note-3HfJZ5, .footer-1fjuF6 {
+.bodyTitle-Y0qMQz, .size12-3R0845, .note-3HfJZ5, .protip-YaFfgO {
   display: none;
 }
 .headerTop-3C2Zn0 {
@@ -320,6 +324,29 @@ opacity: 1;
   opacity: 1;
   }
   /* --- */
+
+/* Discord Avatar Top Left Keep Still - Add /* Below To Disable */
+
+.tutorialContainer-2sGCg9 {
+  position: fixed;
+  z-index: 1;
+  background: linear-gradient(var(--background-tertiary) 100%, transparent);
+}
+.guilds-1SWlCJ .scroller-1Bvpku { contain: none !important; padding-top: 0;}
+.guilds-1SWlCJ .scroller-1Bvpku > [aria-label], .guilds-1SWlCJ .scroller-1Bvpku > [style] { margin-top: 55px;}
+.guilds-1SWlCJ .scroller-1Bvpku > [style] ~ [aria-label] { margin-top: 0px;}
+
+.wrapper-3NnKdC > ul > .scroller-1Bvpku > div[aria-label="Servers"] {
+  margin-top: 60px;
+}
+.tutorialContainer-2sGCg9 {
+  box-shadow: 0px 5px 5px var(--background-tertiary);
+}
+.container-3w7J-x {
+  z-index: 1;
+}
+/* --- */
+
 /* ----- */
 
 /* Naive Extras */
@@ -332,5 +359,6 @@ opacity: 1;
   background-color: var(--background-primary);
 }
 /* --- */
+
 
 
