@@ -1,7 +1,7 @@
 /**
  * @name Naive
  * @author Leeprky#2063
- * @version 0.3.5
+ * @version 0.3.6
  * @description Naive Theme By Leeprky#2063
  * @source https://github.com/leeprky/tobenamedtheme
 */
@@ -14,18 +14,17 @@
 
 /* --- */
 
-
 /* Colors CONFIG */
 
 /* Cherry - Magenta */  
 
-
+/*
 @import url(https://raw.githack.com/leeprky/Naive/main/styles/naive-cherry.css); 
 /* */
 /* - REMOVE (LIGHTMODE)
 @import url(https://raw.githack.com/leeprky/Naive/main/styles/naive-cherry-light.css); 
 /* */
-/* - REMOVE (GLASSCORD)
+
 @import url(https://raw.githack.com/leeprky/Naive/main/styles/naive-cherry-glasscord.css);
 /* */
 
@@ -159,7 +158,6 @@ ul.tree-2wKJdG:focus {
 /* */
 
 /* Modal Popout - Add /* BELOW FOR NONE BIG MODALS */
-
 :root {
   --background-secondary3: #262C37;
 }
@@ -232,6 +230,7 @@ div[class*="headerPlaying"], div[class*="headerStreaming"] {
   mask: none;
 }
 .headerText-2sdzFM {padding-bottom: 5px;}
+
 /* --- */
 
 /* Blur Sensitive Info */
@@ -287,6 +286,7 @@ div[class*="headerPlaying"], div[class*="headerStreaming"] {
   filter: none;
   opacity: 1;
 }
+
 /* Leeprkys Extras */
 /* Connected Accounts */
 .connectionAccountValue-3VdBGs{
@@ -324,29 +324,6 @@ opacity: 1;
   opacity: 1;
   }
   /* --- */
-
-/* Discord Avatar Top Left Keep Still - Add /* Below To Disable */
-
-.tutorialContainer-2sGCg9 {
-  position: fixed;
-  z-index: 1;
-  background: linear-gradient(var(--background-tertiary) 100%, transparent);
-}
-.guilds-1SWlCJ .scroller-1Bvpku { contain: none !important; padding-top: 0;}
-.guilds-1SWlCJ .scroller-1Bvpku > [aria-label], .guilds-1SWlCJ .scroller-1Bvpku > [style] { margin-top: 55px;}
-.guilds-1SWlCJ .scroller-1Bvpku > [style] ~ [aria-label] { margin-top: 0px;}
-
-.wrapper-3NnKdC > ul > .scroller-1Bvpku > div[aria-label="Servers"] {
-  margin-top: 60px;
-}
-.tutorialContainer-2sGCg9 {
-  box-shadow: 0px 5px 5px var(--background-tertiary);
-}
-.container-3w7J-x {
-  z-index: 1;
-}
-/* --- */
-
 /* ----- */
 
 /* Naive Extras */
@@ -359,6 +336,3 @@ opacity: 1;
   background-color: var(--background-primary);
 }
 /* --- */
-
-
-
