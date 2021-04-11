@@ -327,3 +327,8 @@ body{
   padding-bottom: 5px;
 }
 /* --- */
+
+/* Mention Colour Bar */
+.mentioned-xhSam7:before {
+    background-color: var(--alt-color);
+}
