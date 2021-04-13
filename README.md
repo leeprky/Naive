@@ -17,11 +17,9 @@ Hell:
 
 ## How To Install Naive
 
-> Head to C:\Users\[USER]\powercord\src\Powercord
+Open CMD & Copy This
 
-> Right Click "themes" and click Git Bash Here
-
-> Type "git clone https://github.com/leeprky/Naive"
+cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Naive
 
 > Refresh Discord
 
