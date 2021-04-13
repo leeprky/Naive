@@ -31,4 +31,4 @@ MIT, see LICENSE.md for more details
 
 ## Previews
 
-![preview](./previews/LodeDevAlpha.jpg)
+![preview](./previews/cherry-glasscord.jpg)
