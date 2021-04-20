@@ -1,7 +1,7 @@
 /**
  * @name Naive
  * @author Leeprky#2063
- * @version 1.0
+ * @version 1.1
  * @description Naive Theme By Leeprky#2063
  * @source https://github.com/leeprky/tobenamedtheme
 */
@@ -232,88 +232,173 @@ div[class*="headerPlaying"], div[class*="headerStreaming"] {
 .headerText-2sdzFM {padding-bottom: 5px;}
 /* --- */
 
-/* Member List Edit - /*Below To Remove*/
+/* Naive Extras */
+/* memberlist */
 
-:root {
-  --hover-animation-speed: 0.35s;
-  --seperator-color: var(--background-accent);
+/* My Account */
+.background-1QDuV2 {
+  background-color: var(--background-primary);
+}
+/* --- */
+
+}
+.membersWrap-2h-GB4, .members-1998pB {
+left: 20px;
+margin-right: 20px;
+}
+.members-1998pB, .members-1998pB>div {
+  background-color: var(--background-secondary3);
+  border-radius: 15px 0px 0px 15px !important;
+}
+/* --- */
+
+/* Naive Extras */
+/* memberlist */
+
+/* My Account */
+.background-1QDuV2 {
+  background-color: var(--background-primary);
+}
+/* --- */
+
+
+/* WindowsInTopBar */
+
+.typeWindows-1za-n7{
+  width:calc(100% - calc(72px + 240px));
+  position: fixed;
+  right: 0px;
+  height:46px;
+  z-index: 2;
+  background: transparent!important;margin:0px;
+}
+.platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
+  z-index:1;
+}
+.winButton-iRh8-Z{top:12px;left:-4px;z-index:67438274832798;}
+.wordmarkWindows-1v0lYD{display: none;}
+.platform-win .sidebar-2K8pFh {border-radius: 0px!important;}
+.platform-win .title-3qD0b-{
+  width:calc(100% - 80px);
+}
+
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #f771715e;}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0ca574f;}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c04879;}
+.container-1r6BKw.themed-ANHk51 {
+  background: transparent;
+}
+.notice-3uyY6c, .notice-3bPHh- {
+background-color: var(--background-accent);
+top: 80px;
+opacity: 0.9;
+border-radius: 0px 0px 12px 12px;
+left: 240px;
+margin-right: 494px;
+margin-top: -35px;
+}
+/* --- */
+
+/* Settings Modal Under Channels Into Server List */
+
+.spotify-buttons {
+width: 6em;
+margin-bottom: -4px;
+}
+.spotify-extra-controls, .spotify-seek-elements {
+  display: none !important;
+}
+.powercord-spotify, .powercord-spotify.hover {
+  height: 57px;
+}
+.powercord-spotify.hover .spotify-extra-controls + .spotify-seek {
+  margin-top:3px !important;
+}
+.powercord-spotify.hover .spotify-seek:not(.no-premium) .spotify-seek-bar {
+  height:2px;
+}
+.spotify-seek-bar-cursor {
+  border:none !important;
+  width:15px;
+  height:15px;
+}
+.spotify-title div:first-child {
+  margin-top:-1px !important;
+  margin-bottom:3px;
+}
+.powercord-spotify {
+background-position-x: center;
+background-position-y: center;
+border-radius: 12px 12px 0px 0px; 
+background-image: var(--spotify-background-image); 
+background-position: center;
+z-index: 1;
+background-size: cover;
+}
+.avatar-SmRMf2 .spotify-cover {
+display: none;
+}
+
+.panels-j1Uci_ {
+transition: height 0.5s;
+z-index: 902;
+position: absolute;
+right: 1em;
+bottom: 5em;
+border-radius: 1em !important;
+width: 240px;
+}
+.unreadBar-3t3sYc,
+.animatedContainer-1NSq4T {
+visibility: hidden;
+}
+.bannerImage-3KhIJ6 {
+opacity: 0;
+transition: opacity 0.5s;
 }
 .membersWrap-2h-GB4 {
-  min-width: unset;
-  width: 25px;
-  margin-bottom: 88px;
-  margin-top: 10px;
-  justify-content: right;
+background-color: var(--background-secondary);
+height: calc(100% - 160px);
+transition: height 0.5s;
+border-radius: 1em;
+position: absolute;
+right: 1em;
+top: 0.5em;
+overflow: hidden;
 }
-.members-1998pB {
-  transition: transform var(--hover-animation-speed);
+.chatContent-a9vAAp {
+position: absolute;
+width: 100%;
+height: 100%;
 }
-.membersWrap-2h-GB4:hover .members-1998pB {
-  transform: translateX(-230px);
+.newMessagesBar-265mhP,
+.jumpToPresentBar-G1R9s6,
+.divider-3_HH5L {
+width: calc(100% - 290px);
 }
-.membersWrap-2h-GB4 .membersGroup-v9BXpm::after {
-  content: '';
-  width: 30px;
-  height: 2px;
-  border-radius: 50px;
-  background: unset;
-  background-color: var(--seperator-color);
-  position: absolute;
-  left: -36px;
-  top: 29px;
-  margin-left: 0px;
+.container-2fRDfG {
+width: calc(100% - 260px);
 }
-.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
-  background-color: unset;
-  margin-left: 0px;
-  transition: margin-left var(--hover-animation-speed);
+.message-2qnXI6[role="listitem"] {
+width: calc(100% - 365px);
+border-radius: 1em;
 }
-.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
-  margin-left: 8px;
+.searchResultsWrap-3-pOjs {
+z-index: 903;
+height: calc(100% - 100px);
+position: absolute;
+right: 1em;
+border-radius: 1em;
 }
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
-  transform: translateX(-6px);
-}
-.members-1998pB {
-border-radius: 15px 15px 0 0 !important;
 
+.container-3baos1 .noWrap-3jynv6 {
+width: 100px;
+opacity: 1;
 }
-.membersWrap-2h-GB4, .members-1998pB {
-left: 20px;
-margin-right: 20px;
+.button-14-BFJ{
+transition: 0.2s;
 }
-.members-1998pB, .members-1998pB>div {
-  background-color: var(--background-secondary3);
-  border-radius: 15px 0px 0px 15px !important;
+.button-14-BFJ:hover{
+padding-bottom: 0px;
+transition: 0.2;
 }
-/* --- */
-
-/* Naive Extras */
-/* memberlist */
-
-/* My Account */
-.background-1QDuV2 {
-  background-color: var(--background-primary);
-}
-/* --- */
-
-}
-.membersWrap-2h-GB4, .members-1998pB {
-left: 20px;
-margin-right: 20px;
-}
-.members-1998pB, .members-1998pB>div {
-  background-color: var(--background-secondary3);
-  border-radius: 15px 0px 0px 15px !important;
-}
-/* --- */
-
-/* Naive Extras */
-/* memberlist */
-
-/* My Account */
-.background-1QDuV2 {
-  background-color: var(--background-primary);
-}
-/* --- */
-
